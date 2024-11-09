@@ -5,9 +5,12 @@ box-sizing: border-box;
 }
 
 .Logo{
-    background: #000;
-    width: 15vw;
+    width: 50%;
 }
+#imageLogo{
+    width: 50%;
+}
+
 .TopLineWeb{
     display: flex;
     flex-direction: row;
@@ -17,7 +20,8 @@ box-sizing: border-box;
 }
 header{
     display: flex;
-    height: 200px;
+    height: 40%;
+    padding: 30px 0px;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.274);
 }
@@ -31,7 +35,7 @@ header{
 
     transition: .4s ease;
     font-size: 25px;
-    padding-right: 12vw;
+    padding-right: 30vw;
 
     font-family: "Merienda", cursive;
     font-optical-sizing: auto;
@@ -93,4 +97,27 @@ body{
 }
 footer{
     background-color: rgba(0, 0, 0, 0.274);
+}  
+@media screen and (max-width: 800px){
+
+    .Titre{
+        font-size: 7px;
+        justify-content: center;
+    }
+    .Remerciements{
+        font-size: 15px;
+    }
+    .LinkedIn{
+        font-size: 15px
+    }
+    .classbutton{
+        font-size: 12px;
+        width: 100px;
+    }
+    .Logo{
+        width: 35%;
+    }
+    #imageLogo{
+        width: 100%;
+    }
 }
